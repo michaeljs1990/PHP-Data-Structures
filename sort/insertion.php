@@ -15,7 +15,6 @@ for($x = 1; $x < count($sort); $x++){
 	for($y = $x - 1; $y >= 0 && $sort[$y + 1] < $sort[$y]; $y--){
 		$sort[$y + 1] = $sort[$y];
 		$sort[$y] = $t;
-		
 	}
 }
 
