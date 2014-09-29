@@ -22,10 +22,4 @@ for($x = 1; $x < count($sort); $x++){
 }
 
 // Test Array is correct
-<<<<<<< HEAD
 print_r($sort);
-=======
-foreach($sort as $int){
-	echo $int . ' ';
-}
->>>>>>> 9048c826e2feda45d3e85aef56823392054cfb50
